@@ -1,0 +1,242 @@
+2021-09-17 11:02:08,001 INFO    MainThread:207581 [internal.py:wandb_internal():89] W&B internal server running at pid: 207581, started at: 2021-09-17 11:02:08.001172
+2021-09-17 11:02:08,002 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: check_version
+2021-09-17 11:02:08,002 INFO    WriterThread:207581 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/run-2jovzq4a.wandb
+2021-09-17 11:02:08,004 DEBUG   SenderThread:207581 [sender.py:send():182] send: header
+2021-09-17 11:02:08,004 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: check_version
+2021-09-17 11:02:08,441 DEBUG   SenderThread:207581 [sender.py:send():182] send: run
+2021-09-17 11:02:08,442 DEBUG   SenderThread:207581 [git.py:repo():33] git repository is invalid
+2021-09-17 11:02:08,945 INFO    SenderThread:207581 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files
+2021-09-17 11:02:08,945 INFO    SenderThread:207581 [sender.py:_start_run_threads():743] run started: 2jovzq4a with start time 1631856727
+2021-09-17 11:02:08,945 DEBUG   SenderThread:207581 [sender.py:send():182] send: summary
+2021-09-17 11:02:08,946 INFO    SenderThread:207581 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 11:02:08,946 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: run_start
+2021-09-17 11:02:08,949 DEBUG   HandlerThread:207581 [meta.py:__init__():40] meta init
+2021-09-17 11:02:08,949 DEBUG   HandlerThread:207581 [meta.py:__init__():54] meta init done
+2021-09-17 11:02:08,949 DEBUG   HandlerThread:207581 [meta.py:probe():211] probe
+2021-09-17 11:02:08,955 DEBUG   HandlerThread:207581 [git.py:repo():33] git repository is invalid
+2021-09-17 11:02:08,955 DEBUG   HandlerThread:207581 [meta.py:_save_code():90] save code
+2021-09-17 11:02:08,955 WARNING HandlerThread:207581 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-17 11:02:08,955 DEBUG   HandlerThread:207581 [meta.py:_save_pip():58] save pip
+2021-09-17 11:02:08,956 DEBUG   HandlerThread:207581 [meta.py:_save_pip():72] save pip done
+2021-09-17 11:02:08,956 DEBUG   HandlerThread:207581 [meta.py:_save_conda():79] save conda
+2021-09-17 11:02:09,948 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/requirements.txt
+2021-09-17 11:02:09,948 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/conda-environment.yaml
+2021-09-17 11:02:09,949 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/wandb-summary.json
+2021-09-17 11:02:14,952 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/output.log
+2021-09-17 11:02:15,952 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/conda-environment.yaml
+2021-09-17 11:02:16,078 DEBUG   HandlerThread:207581 [meta.py:_save_conda():87] save conda done
+2021-09-17 11:02:16,078 DEBUG   HandlerThread:207581 [meta.py:probe():249] probe done
+2021-09-17 11:02:16,101 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 11:02:16,101 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:16,101 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: stop_status
+2021-09-17 11:02:16,102 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:16,107 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:16,545 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:16,952 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/output.log
+2021-09-17 11:02:16,953 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/wandb-metadata.json
+2021-09-17 11:02:19,232 INFO    Thread-12 :207581 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/1c/5644ffdfa31dbd87c5ac4f4c1906d3
+2021-09-17 11:02:21,022 DEBUG   SenderThread:207581 [sender.py:send():182] send: files
+2021-09-17 11:02:21,026 INFO    SenderThread:207581 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-17 11:02:21,027 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:22,072 INFO    Thread-13 :207581 [upload_job.py:push():137] Uploaded file /tmp/tmptp7tlgvewandb/1d274sbi-wandb-metadata.json
+2021-09-17 11:02:31,546 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 11:02:31,546 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: stop_status
+2021-09-17 11:02:46,991 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:46,991 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:47,096 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 11:02:47,096 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: stop_status
+2021-09-17 11:02:47,479 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:47,482 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:47,482 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:47,527 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:47,528 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:47,529 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:48,021 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:48,021 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:48,021 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:48,053 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:48,053 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:48,535 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:48,537 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:48,537 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:48,579 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:48,579 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:49,025 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:49,027 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:49,027 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:49,100 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:49,101 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:49,509 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:49,512 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:49,512 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:49,625 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:49,625 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:50,014 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:50,016 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:50,016 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:50,050 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:50,050 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:50,304 INFO    Thread-19 :207581 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/23/ada8a2c3feab7a23d476447653bb56
+2021-09-17 11:02:50,564 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:50,566 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:50,566 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:50,674 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:50,674 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:51,059 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:51,062 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: pause
+2021-09-17 11:02:51,062 INFO    HandlerThread:207581 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-17 11:02:51,098 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: resume
+2021-09-17 11:02:51,098 INFO    HandlerThread:207581 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-17 11:02:51,643 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-17 11:02:51,964 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/code/_session_history.ipynb
+2021-09-17 11:02:51,964 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/code
+2021-09-17 11:02:51,997 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:02:52,392 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:52,392 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:52,964 INFO    Thread-8  :207581 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/output.log
+2021-09-17 11:02:53,404 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:53,404 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:54,435 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:54,435 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:55,407 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:55,408 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:56,468 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:56,469 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:57,098 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:02:57,485 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:57,485 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:58,503 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:58,504 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:02:59,469 DEBUG   SenderThread:207581 [sender.py:send():182] send: config
+2021-09-17 11:02:59,469 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:02:59,470 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: log_artifact
+2021-09-17 11:03:02,172 INFO    Thread-26 :207581 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/fe/c40a0b4dfdcd2699953e7f730d0f69
+2021-09-17 11:03:02,199 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:02,217 INFO    Thread-27 :207581 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/fe/6dd4d8fca99e61fe4efc9347934670
+2021-09-17 11:03:03,977 DEBUG   SenderThread:207581 [sender.py:send():182] send: telemetry
+2021-09-17 11:03:03,978 DEBUG   SenderThread:207581 [sender.py:send():182] send: exit
+2021-09-17 11:03:03,978 INFO    SenderThread:207581 [sender.py:send_exit():291] handling exit code: 0
+2021-09-17 11:03:03,978 INFO    SenderThread:207581 [sender.py:send_exit():293] handling runtime: 12
+2021-09-17 11:03:03,983 INFO    SenderThread:207581 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 11:03:03,983 INFO    SenderThread:207581 [sender.py:send_exit():303] send defer
+2021-09-17 11:03:03,983 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:03,983 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:03,983 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:03,983 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:03,984 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-17 11:03:03,984 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:03,984 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-17 11:03:03,984 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 1
+2021-09-17 11:03:03,984 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:03,984 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-17 11:03:04,008 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:04,008 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-17 11:03:04,008 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 2
+2021-09-17 11:03:04,008 DEBUG   SenderThread:207581 [sender.py:send():182] send: stats
+2021-09-17 11:03:04,009 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:04,009 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-17 11:03:04,009 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:04,009 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-17 11:03:04,009 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 3
+2021-09-17 11:03:04,009 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:04,009 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-17 11:03:04,009 DEBUG   SenderThread:207581 [sender.py:send():182] send: summary
+2021-09-17 11:03:04,010 INFO    SenderThread:207581 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 11:03:04,010 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:04,010 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-17 11:03:04,010 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 4
+2021-09-17 11:03:04,010 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:04,010 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-17 11:03:04,010 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:04,010 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-17 11:03:04,090 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:04,499 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 5
+2021-09-17 11:03:04,499 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:04,499 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:04,499 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-17 11:03:04,500 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:04,500 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-17 11:03:04,500 INFO    SenderThread:207581 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-17 11:03:04,600 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:04,973 INFO    SenderThread:207581 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/config.yaml
+2021-09-17 11:03:04,974 INFO    SenderThread:207581 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/wandb-summary.json
+2021-09-17 11:03:04,974 INFO    SenderThread:207581 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files
+2021-09-17 11:03:04,974 INFO    SenderThread:207581 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/config.yaml config.yaml
+2021-09-17 11:03:04,974 INFO    SenderThread:207581 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/requirements.txt requirements.txt
+2021-09-17 11:03:04,980 INFO    SenderThread:207581 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/conda-environment.yaml conda-environment.yaml
+2021-09-17 11:03:04,981 INFO    SenderThread:207581 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/output.log output.log
+2021-09-17 11:03:04,981 INFO    SenderThread:207581 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/wandb-summary.json wandb-summary.json
+2021-09-17 11:03:04,992 INFO    SenderThread:207581 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/wandb-metadata.json wandb-metadata.json
+2021-09-17 11:03:05,006 INFO    SenderThread:207581 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-09-17 11:03:05,006 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 6
+2021-09-17 11:03:05,006 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,007 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:05,011 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-17 11:03:05,012 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:05,012 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-17 11:03:05,012 INFO    SenderThread:207581 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-17 11:03:05,109 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,109 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,210 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,211 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,312 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,312 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,414 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,414 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,518 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,519 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,620 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,620 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,722 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,722 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,825 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,825 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:05,926 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:05,927 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,028 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:06,028 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,069 INFO    Thread-28 :207581 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/config.yaml
+2021-09-17 11:03:06,075 INFO    Thread-29 :207581 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/requirements.txt
+2021-09-17 11:03:06,102 INFO    Thread-32 :207581 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/wandb-summary.json
+2021-09-17 11:03:06,130 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:06,130 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,163 INFO    Thread-31 :207581 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/output.log
+2021-09-17 11:03:06,208 INFO    Thread-33 :207581 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/code/_session_history.ipynb
+2021-09-17 11:03:06,231 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:06,231 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,268 INFO    Thread-30 :207581 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/files/conda-environment.yaml
+2021-09-17 11:03:06,332 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:06,333 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,434 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:06,434 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,468 INFO    Thread-7  :207581 [sender.py:transition_state():316] send defer: 7
+2021-09-17 11:03:06,469 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:06,469 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-17 11:03:06,469 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:06,469 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-17 11:03:06,535 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:06,787 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 8
+2021-09-17 11:03:06,787 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,788 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:06,788 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-17 11:03:06,788 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:06,788 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-17 11:03:06,788 INFO    SenderThread:207581 [sender.py:transition_state():316] send defer: 9
+2021-09-17 11:03:06,789 DEBUG   SenderThread:207581 [sender.py:send():182] send: final
+2021-09-17 11:03:06,789 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 11:03:06,789 DEBUG   SenderThread:207581 [sender.py:send():182] send: footer
+2021-09-17 11:03:06,789 INFO    HandlerThread:207581 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-17 11:03:06,789 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: defer
+2021-09-17 11:03:06,790 INFO    SenderThread:207581 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-17 11:03:06,889 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 11:03:06,889 DEBUG   SenderThread:207581 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 11:03:06,889 INFO    SenderThread:207581 [file_pusher.py:join():182] waiting for file pusher
+2021-09-17 11:03:06,890 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-17 11:03:06,891 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-17 11:03:06,892 DEBUG   HandlerThread:207581 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-17 11:03:06,892 INFO    HandlerThread:207581 [handler.py:finish():683] shutting down handler
+2021-09-17 11:03:07,789 INFO    WriterThread:207581 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Consumer-Complaints-NLP/wandb/run-20210917_110207-2jovzq4a/run-2jovzq4a.wandb
+2021-09-17 11:03:07,889 INFO    SenderThread:207581 [sender.py:finish():979] shutting down sender
+2021-09-17 11:03:07,889 INFO    SenderThread:207581 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-17 11:03:07,890 INFO    SenderThread:207581 [file_pusher.py:join():182] waiting for file pusher
+2021-09-17 11:03:07,890 INFO    MainThread:207581 [internal.py:handle_exit():76] Internal process exited
